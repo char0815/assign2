@@ -1,5 +1,3 @@
-//You should implement your assign2 here.
-
 PImage bg2Img;
 PImage fighterImg;
 PImage enemyImg;
