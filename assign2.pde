@@ -36,7 +36,7 @@ void setup(){
  a=0;
  b =550;
  c =200;
- x =71;
+   x=30;
 }
 void draw() {
   image(start2Img,0,0);
@@ -108,11 +108,14 @@ if(playA==2){
    y=0;
    e=(int)random(430);
  }
- if(f >=b-5 && z>=c-10 && z<=c+60 && f<=b+60 && x<200){
+ if(f >=b-20 && z>=c-24 && z<=c+60 && f<=b+60 && x<200){
    x+=20;
    f=(int)random(600);
    z=(int)random(430);
  }
+ if(x>=400){
+   x=400;
+  }
  if(y<=b && e<=c-20){
    e +=3;
  }
